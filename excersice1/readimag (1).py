@@ -11,12 +11,13 @@ cv2.imshow('image',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
+print img.shape  #(512, 512)
+print img.size  #262144
+print img.dtype  #uint8
+x = img[100][100]
+print x  #116
 
-p = img.shape
-print p
-rows, cols = img.shape
-for i in range(rows):
-    for j in range(cols):
-        k=img[i,j]
-        print k
+
+
+
 
