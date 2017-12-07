@@ -19,3 +19,11 @@ Use the function of imread() to read image and read each pixel as a matrix
 Median Filter works better for salt-and-pepper noise and the Gaussian Filter works better for gaussian noise.
 As kernel increase, the results turn to indistinct.
 
+## Exercise 4
+### What are the disadvantages of binary threshold? 
+
+The BinaryThreshold will highlight part of the features but ignore the others.
+
+### When is Adaptive Threshold useful?
+
+It could multiple thresholds at the same time, so it is useful when we want to perform multiple processes on the same image at different levels.
